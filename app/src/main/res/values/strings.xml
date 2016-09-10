@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">DoctorsApp</string>
+
+    <!-- MainActivity -->
+    <string name="diagnosis.list.result.empty">Press + to add test</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_clear_all">Clear all</string>
+
+    <!-- DiagnosisActivity -->
+    <string name="diagnosis.test.migrane">Do you have migrane</string>
+    <string name="diagnosis.test.age">Are you 15 or younger?</string>
+    <string name="diagnosis.test.sex">Are you male?</string>
+    <string name="diagnosis.test.drug">Do you use hallucinogenic drugs?</string>
+    <string name="diagnosis.test.calculate">Calculate Results</string>
+    <string name="diagnosis.test.result.100.percent">100% more likely</string>
+    <string name="diagnosis.test.result.75.percent">75% more likely</string>
+    <string name="diagnosis.test.result.50.percent">50% more likely</string>
+    <string name="diagnosis.test.result.25.percent">25% more likely</string>
+    <string name="diagnosis.test.result.0.percent">0% safe :)</string>
+
+</resources>

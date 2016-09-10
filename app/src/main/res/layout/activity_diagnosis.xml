@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin">
+
+
+    <CheckBox
+        android:id="@+id/migrane_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/diagnosis.test.migrane" />
+
+
+    <CheckBox
+        android:id="@+id/age_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/diagnosis.test.age" />
+
+    <CheckBox
+        android:id="@+id/sex_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/diagnosis.test.sex" />
+
+    <CheckBox
+        android:id="@+id/drugs_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/diagnosis.test.drug" />
+
+    <Button
+        android:id="@+id/calculate_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/diagnosis.test.calculate" />
+
+    <TextView
+        android:id="@+id/diagnosis_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/diagnosis.result.textview.size"
+        android:textStyle="bold" />
+
+</LinearLayout>
